@@ -1,6 +1,6 @@
 # initialize from the image
 
-FROM debian:10
+FROM ubuntu:18.04
 
 ARG TOOLCHAIN_FLAVOR=x86_64-linux
 ENV TOOLCHAIN_FLAVOR=${TOOLCHAIN_FLAVOR}
