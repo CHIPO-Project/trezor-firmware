@@ -1,5 +1,3 @@
-9# generated from coininfo.py.mak1
-# do not edit manually!
 from trezor import utils
 from trezor.crypto.base58 import blake256d_32, groestl512d_32, keccak_32, sha256d_32
 from trezor.crypto.scripts import blake256_ripemd160_digest, sha256_ripemd160_digest
