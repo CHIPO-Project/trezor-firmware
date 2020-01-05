@@ -1,4 +1,4 @@
-# generated from coininfo.py.mako
+9# generated from coininfo.py.mak1
 # do not edit manually!
 from trezor import utils
 from trezor.crypto.base58 import blake256d_32, groestl512d_32, keccak_32, sha256d_32
@@ -411,6 +411,29 @@ def by_name(name: str) -> CoinInfo:
                 cashaddr_prefix=None,
                 slip44=160,
                 segwit=True,
+                fork_id=None,
+                force_bip143=False,
+                bip115=False,
+                decred=False,
+                negative_fee=False,
+                curve_name='secp256k1',
+                confidential_assets=None,
+            )
+        elif name == "CHIPO":
+            return CoinInfo(
+                coin_name=name,
+                coin_shortcut="ICU",
+                address_type=28,
+                address_type_p2sh=13,
+                maxfee_kb=100000,
+                signed_message_header="CHPXNet Signed Message:\n",
+                xpub_magic=0x03e12fa5,
+                xpub_magic_segwit_p2sh=None,
+                xpub_magic_segwit_native=None,
+                bech32_prefix=None,
+                cashaddr_prefix=None,
+                slip44=437,
+                segwit=False,
                 fork_id=None,
                 force_bip143=False,
                 bip115=False,

@@ -50,6 +50,9 @@
         "Exodus": "https://www.exodus.io",
         "Magnum": "https://magnumwallet.co"
     },
+    "bitcoin:ICU": {
+        "Electrum-Chipo": "https://www.chipo.icu"
+    },
     "bitcoin:FJC": {
         "Electrum-FJC": "http://www.fujicoin.org/downloads.php"
     },
