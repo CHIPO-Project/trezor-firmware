@@ -628,6 +628,19 @@
                 }
             ]
         },
+        "bitcoin:ICU": {
+            "links": {
+                "Github": "https://github.com/CHIPO-Project/CHIPO",
+                "Homepage": "https://www.chipo.icu"
+            },
+            "marketcap_usd": 14827532,
+            "name": "CHIPO",
+            "shortcut": "ICU",
+            "t1_enabled": "yes",
+            "t2_enabled": "yes",
+            "type": "coin",
+            "wallet": []
+        },
         "bitcoin:PIVX": {
             "links": {
                 "Github": "https://github.com/PIVX-Project/PIVX",
